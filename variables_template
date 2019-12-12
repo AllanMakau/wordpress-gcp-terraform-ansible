@@ -1,0 +1,46 @@
+
+
+# Variáveis para Criação de maquinas virtuais na nuvem GCP
+
+variable "variable_project_id" {
+	description =  "nome do projeto"
+	default = ""
+}
+
+variable "variable_region" {
+	description =  "region"
+	default = ""
+}
+
+variable "variable_zone" {
+	description =  "zone"
+	default = ""
+}
+
+variable "variable_micro" {
+	description =  "type instance"
+	default = ""
+}
+
+variable "variable_image_micro" {
+	description =  "imagem do micro"
+	default = ""
+}
+
+
+# Variáveis para Criação de Banco de dados na nuvem GCP
+
+variable "variable_name_database" {
+	description =  "name database"
+	default = ""
+}
+
+variable "variable_version_database" {
+	description =  "version database"
+	default = ""
+}
+
+variable "variable_micro_database" {
+	description =  "micro database"
+	default = ""
+}
